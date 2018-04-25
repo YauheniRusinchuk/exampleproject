@@ -29,14 +29,12 @@ class Homepage extends React.Component {
     return (
       <div className='loginform'>
           <div className='wrapper'>
-            <form className="form">
                 <p className="form_title"> Hi, I think that I can help you  </p>
                 <div className='lgandsg'>
                   <span onClick={this.handleLogin}>LOG IN</span>
                   <span onClick={this.handleSignin}>SIGN IN</span>
                 </div>
                 {login}
-            </form>
           </div>
       </div>
 
